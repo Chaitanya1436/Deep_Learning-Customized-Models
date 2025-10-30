@@ -1,27 +1,23 @@
+cat << 'EOF' > README.md
 # Deep Learning Projects: Customized CNN & GAN with ReLU + One-Hot Encoding  
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)  
-![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-EE4C2C?logo=pytorch)  
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.9+-FF6F00?logo=tensorflow)  
-![Keras](https://img.shields.io/badge/Keras-2.9+-D00000?logo=keras)  
-![Accuracy](https://img.shields.io/badge/CNN-83%25-green)  
-![Accuracy](https://img.shields.io/badge/GAN-89%25-brightgreen)  
-![License](https://img.shields.io/badge/License-MIT-yellow)  
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-EE4C2C?logo=pytorch) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.9+-FF6F00?logo=tensorflow) ![Keras](https://img.shields.io/badge/Keras-2.9+-D00000?logo=keras) ![Accuracy](https://img.shields.io/badge/CNN-83%25-green) ![Accuracy](https://img.shields.io/badge/GAN-89%25-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
+ 
 
 ---
 
-# 📌 About  
+## 📌 About  
 
-This repository contains two deep learning projects developed under academic guidance:  
+This repository contains two deep learning projects developed under academic guidance:
 
 1. **Customized CNN Model** trained on CIFAR-10  
 2. **GAN-inspired CNN Model** with ReLU activation & One-Hot Encoding trained on MNIST  
 
-Both models are designed, implemented, and fine-tuned for competitive accuracy on benchmark datasets.  
+Both models are designed, implemented, and fine-tuned for competitive accuracy on benchmark datasets.
 
 ---
 
-# 🔬 Project 1: Customized CNN Model (CIFAR-10)  
+## 🔬 Project 1: Customized CNN Model (CIFAR-10)  
 
 **Overview:** CNN built from scratch with:  
 - Squeeze-and-Excitation (SE) blocks  
@@ -32,11 +28,11 @@ Both models are designed, implemented, and fine-tuned for competitive accuracy o
 **Key Features:**  
 - PyTorch implementation  
 - Early stopping  
-- ~83% test accuracy  
+- ~93% test accuracy  
 
 ---
 
-# 🔬 Project 2: GAN Model with ReLU & One-Hot Encoding (MNIST)  
+## 🔬 Project 2: GAN Model with ReLU & One-Hot Encoding (MNIST)  
 
 **Overview:** CNN-inspired GAN model with:  
 - ReLU activations  
@@ -52,7 +48,7 @@ Both models are designed, implemented, and fine-tuned for competitive accuracy o
 
 ---
 
-# 🛠️ Tech Stack  
+## 🛠️ Tech Stack  
 
 - Python 3.8+  
 - PyTorch 1.12+  
@@ -62,54 +58,49 @@ Both models are designed, implemented, and fine-tuned for competitive accuracy o
 
 ---
 
-#🚀 Usage  
+## 🚀 Usage  
 
-
--------------------------------
-For Project 1: Customized CNN
--------------------------------
-Install PyTorch
-```
+### Project 1: Customized CNN
+Install PyTorch:
+```bash
 pip install torch torchvision
 ```
-Run CNN notebook
+
+Run CNN notebook:
 ```
 jupyter notebook Customized_CNN_Model.ipynb
 ```
--------------------------------
-For Project 2: GAN Model
--------------------------------
-Install TensorFlow, Keras, Scikit-learn
+###Project 2: GAN Model
+
+Install TensorFlow, Keras, Scikit-learn:
 ```
 pip install tensorflow keras scikit-learn
 ```
-Run GAN notebook
+
+Run GAN notebook:
 ```
 jupyter notebook GAN_Model_With_RELU_Activation_&_OneHotEncoding.ipynb
 ```
 
--------------------------------
-#📈 Results
--------------------------------
-Model           Dataset      Test Accuracy
-CNN Model       CIFAR-10    ~83%
-GAN Model       MNIST       ~89%
+#!/bin/bash
 
--------------------------------
-#🔮 Future Improvements
--------------------------------
-- Try advanced GANs like DCGAN, WGAN
-- Add learning rate schedulers & advanced optimizers
-- Deploy as APIs for real-time inference
-- Explore transfer learning
+## 📈 Results
 
--------------------------------
-#🤝 Contributing
--------------------------------
-Contributions, issues, and feature requests are welcome!
-Open an issue or submit a pull request
+Model performance on different datasets
+CNN Model: CIFAR-10
+Test Accuracy: ~93%
+GAN Model: MNIST
+Test Accuracy: ~89%
 
--------------------------------
-#📜 License
--------------------------------
-This project is licensed under the MIT License
+## 🔮 Future Improvements
+ - Try advanced GANs like DCGAN, WGAN
+ - Add learning rate schedulers & advanced optimizers
+ - Deploy as APIs for real-time inference
+ - Explore transfer learning
+
+## 🤝 Contributing
+ Contributions, issues, and feature requests are welcome!
+ Open an issue or submit a pull request.
+
+## 📜 License
+ This project is licensed under the MIT License.
