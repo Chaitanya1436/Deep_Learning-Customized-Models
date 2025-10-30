@@ -9,8 +9,8 @@
 
 This repository contains two deep learning projects developed under academic guidance:
 
-##1. **Customized CNN Model** trained on CIFAR-10  
-##2. **GAN-inspired CNN Model** with ReLU activation & One-Hot Encoding trained on MNIST  
+## 1. **Customized CNN Model** trained on CIFAR-10  
+## 2. **GAN-inspired CNN Model** with ReLU activation & One-Hot Encoding trained on MNIST  
 
 Both models are designed, implemented, and fine-tuned for competitive accuracy on benchmark datasets.
 
