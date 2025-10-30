@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Deep Learning Projects: Customized CNN & GAN with ReLU + One-Hot Encoding  
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-EE4C2C?logo=pytorch) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.9+-FF6F00?logo=tensorflow) ![Keras](https://img.shields.io/badge/Keras-2.9+-D00000?logo=keras) ![Accuracy](https://img.shields.io/badge/CNN-83%25-green) ![Accuracy](https://img.shields.io/badge/GAN-89%25-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -10,8 +9,8 @@ cat << 'EOF' > README.md
 
 This repository contains two deep learning projects developed under academic guidance:
 
-1. **Customized CNN Model** trained on CIFAR-10  
-2. **GAN-inspired CNN Model** with ReLU activation & One-Hot Encoding trained on MNIST  
+###1. **Customized CNN Model** trained on CIFAR-10  
+###2. **GAN-inspired CNN Model** with ReLU activation & One-Hot Encoding trained on MNIST  
 
 Both models are designed, implemented, and fine-tuned for competitive accuracy on benchmark datasets.
 
@@ -39,7 +38,7 @@ Both models are designed, implemented, and fine-tuned for competitive accuracy o
 - One-Hot Encoding  
 - BatchNormalization + Dropout  
 
-**Dataset:** MNIST (70,000 grayscale digits)  
+##**Dataset:** MNIST (70,000 grayscale digits)  
 
 **Key Features:**  
 - TensorFlow/Keras implementation  
@@ -82,7 +81,6 @@ Run GAN notebook:
 jupyter notebook GAN_Model_With_RELU_Activation_&_OneHotEncoding.ipynb
 ```
 
-#!/bin/bash
 
 ## 📈 Results
 
